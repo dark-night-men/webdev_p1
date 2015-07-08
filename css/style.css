@@ -1,1 +1,23 @@
-body { color: red; }
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body { color: green; }
+
+.main_img {
+	width: 90%;
+	height: 30%;
+}
+
+.UEmblem_img {
+	width: 10%;
+	height: 10%;
+}
+
+.bottom_img {
+	width: 25%;
+	height: 25%;
+}
