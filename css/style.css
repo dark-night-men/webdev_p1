@@ -21,3 +21,8 @@ body { color: green; }
 	width: 25%;
 	height: 25%;
 }
+
+.topline {
+	display: flex;
+	justify-content: space-between;
+}
