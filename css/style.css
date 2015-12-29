@@ -8,8 +8,8 @@
 body { color: green; }
 
 .main_img {
-	width: 90%;
-	height: 30%;
+	width: 100%;
+	height: 100%;
 }
 
 .UEmblem_img {
@@ -18,11 +18,45 @@ body { color: green; }
 }
 
 .bottom_img {
-	width: 25%;
-	height: 25%;
+	width: 100%;
+	height: 100%;
+}
+
+.app1 {
+	display: flex;
+        flex-direction: column;
+	justify-content: space-between;
 }
 
 .topline {
 	display: flex;
 	justify-content: space-between;
 }
+
+/*
+.mid_layout {
+	display: flex;
+	justify-content: flex-end;
+        align-content: stretch;
+}
+*/
+
+/*
+.mid_line {
+	display: flex;
+	justify-content: space-between;
+}
+*/
+
+/*
+.bot_line {
+	display: flex;
+	justify-content: space-between;
+}
+*/
+
+.footnote {
+	display: flex;
+	justify-content: space-between;
+}
+
