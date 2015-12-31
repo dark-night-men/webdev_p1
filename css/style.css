@@ -60,3 +60,10 @@ body { color: green; }
 	justify-content: space-between;
 }
 
+.bottom_block {
+	display: flex;
+        flex-direction: column;
+	justify-content: flex-start;
+        align-items: center;
+
+}
